@@ -36,7 +36,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-deporder": "^1.2.0",
     "gulp-htmlclean": "^2.7.22",
-    "gulp-imagemin": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-noop": "^1.0.1",
     "gulp-purgecss": "^4.1.3",

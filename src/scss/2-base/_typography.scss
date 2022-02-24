@@ -1,0 +1,49 @@
+// @font-face {
+//   font-family: 'fontName-Normal';
+//   src: url('./fonts/fontName-normal.otf');//IE-9 Compat Modes
+//   src: url('./fonts/fontName-normal.otf') format('embeded-opentype'),
+//       url('./fonts/fontName-normal.otf') format('woff'),
+//       url('./fonts/fontName-normal.otf') format('woff2'),
+//       url('./fonts/fontName-normal.otf') format('truetype'),
+//       url('./fonts/fontName-normal.otf') format('svg');
+// }
+
+// @font-face {
+//   font-family: 'fontName-Bold';
+//   src: url('./fonts/fontName-bold.otf');//IE-9 Compat Modes
+//   src: url('./fonts/fontName-bold.otf') format('embeded-opentype'),
+//       url('./fonts/fontName-bold.otf') format('woff'),
+//       url('./fonts/fontName-bold.otf') format('woff2'),
+//       url('./fonts/fontName-bold.otf') format('truetype'),
+//       url('./fonts/fontName-bold.otf') format('svg');
+// }
+
+// @font-face {
+//   font-family: 'fontName-Light';
+//   src: url('./fonts/fontName-light.otf');//IE-9 Compat Modes
+//   src: url('./fonts/fontName-light.otf') format('embeded-opentype'),
+//       url('./fonts/fontName-light.otf') format('woff'),
+//       url('./fonts/fontName-light.otf') format('woff2'),
+//       url('./fonts/fontName-light.otf') format('truetype'),
+//       url('./fonts/fontName-light.otf') format('svg');
+// }
+
+// h1-h6
+// // example
+// h3 {
+//   font-size: 1.999em;
+//   @media (max-width: $breakpoint-tablet) {
+//     font-size: 1.3em;
+//   }
+//   @media (max-width: $breakpoint-mobile) {
+//     font-size: 1.2em;
+//   }
+// }
+// p
+// a
+// strong
+// span
+// .h1-h6
+// .red .blue (or any other which you know that will repeat in your texts)
+// .small,
+// .large
