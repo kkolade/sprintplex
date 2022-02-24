@@ -1,0 +1,24 @@
+{
+  "name": "frontend-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkolade/frontend-project-template.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Kola Kolade",
+    "email": "kolakolade@gmail.com",
+    "url": "www.sprintplex.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkolade/frontend-project-template/issues"
+  },
+  "homepage": "https://github.com/kkolade/frontend-project-template#readme"
+}
