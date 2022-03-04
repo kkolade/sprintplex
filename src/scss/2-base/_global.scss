@@ -1,10 +1,71 @@
-html {
-  font-size: 100%;
-  box-sizing: border-box;
-}
+// @use "1-helpers/1-helpers" as helpers;
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+// :root {
+//   font-size: 16px;
+//   box-sizing: border-box;
+//   scroll-behavior: smooth;
+// }
+
+// *,
+// *::before,
+// *::after {
+//   box-sizing: inherit;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// body {
+//   margin: 0 0 helpers.$height-header 0;
+//   font-family: helpers.$font-primary;
+//   font-size: helpers.$font-normal;
+//   background-color: helpers.$color-body;
+//   color: helpers.$color-text;
+// }
+
+// h1,
+// h2,
+// h3,
+// h4 {
+//   color: helpers.$color-headline;
+//   font-weight: helpers.$font-semi-bold;
+// }
+
+// ul {
+//   list-style: none;
+// }
+
+// a {
+//   text-decoration: none;
+// }
+
+// img {
+//   min-width: 100%;
+//   height: auto;
+// }
+
+// // ====REUSEABLE CLASSES====
+// .container,
+// .row {
+//   max-width: helpers.$width-content;
+//   margin: 0 auto;
+// }
+
+// .section {
+//   padding: helpers.$sp-2;
+// }
+
+// .section__title {
+//   font-size: helpers.$font-h2;
+// }
+
+// .section__sub-title {
+//   display: block;
+//   font-size: helpers.$font-h3;
+// }
+
+// .section__title,
+// .section__sub-title {
+//   text-align: center;
+//   letter-spacing: 1px;
+//   word-spacing: helpers.$sp-0-25;
+// }
