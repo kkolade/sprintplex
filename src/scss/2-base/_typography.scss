@@ -1,3 +1,9 @@
+// @use "1-helpers/1-helpers" as helpers;
+// @include helpers.google-font(font-name1);
+// @include helpers.google-font(font-name2);
+// or
+// @import url();
+
 // @font-face {
 //   font-family: "fontName";
 //   font-weight: "400";
@@ -9,7 +15,7 @@
 //     url("./fonts/fontName-normal.ttf") format("svg");
 // }
 
-// ====FONT SIZE FOR LARGE DEVICE====
+//-----FONT SIZE FOR LARGE DEVICE-----
 @media screen and (min-width: 968px) {
   :root {
     $font-big: 3rem;

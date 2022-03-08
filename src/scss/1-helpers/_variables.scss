@@ -1,70 +1,69 @@
-// //************************
-// // ====COLOR VARIABLES====
-// //************************
-// $color-primary: #111;
-// $color-secondary: #222;
-// $color-tertiary: #333;
-// $color-text: #505050 ;
-// $color-headline: #505050;
-// $color-link: ;
-// $color-body: ;
-// $color-container: ;
+// -------------------------
+// -----COLOR VARIABLES-----
+// -------------------------
+$color-primary: #111;
+$color-secondary: #222;
+$color-tertiary: #333;
+$color-text: #505050;
+$color-headline: #505050;
+$color-link: ;
+$color-body: ;
+$color-container: ;
 
-// //************************
-// // ====FONTS VARIABLES====
-// //************************
+// ------------------------
+// -----FONT VARIABLES-----
+// ------------------------
 
-// // ====FONT FAMILY====
-// $font-primary: ;
-// $font-secondary: ;
-// $font-tertiary: ;
+//-----FONT FAMILY-----
+$font-primary: ;
+$font-secondary: ;
+$font-tertiary: ;
 
-// // ====FONT WEIGHT====
-// $font-bold: ;
-// $font-semi-bold: ;
-// $font-medium: ;
-// $font-regular: ;
-// $font-light: ;
-// $font-thin: ;
+//-----FONT WEIGHT-----
+$font-bold: ;
+$font-semi-bold: ;
+$font-medium: ;
+$font-regular: ;
+$font-light: ;
+$font-thin: ;
 
-// // ====FONT SIZE====
-// $font-big: 2rem;
-// $font-h1: 1.5rem;
-// $font-h2: 1.25rem;
-// $font-h3: 1.125rem;
-// $font-normal: 0.938rem;
-// $font-small: 0.813rem;
-// $font-smaller: 0.75rem;
+//-----FONT SIZE-----
+$font-big: 2rem;
+$font-h1: 1.5rem;
+$font-h2: 1.25rem;
+$font-h3: 1.125rem;
+$font-normal: 0.938rem;
+$font-small: 0.813rem;
+$font-smaller: 0.75rem;
 
-// //++++++++++++++++++//
-// // ====REUSEABLE====+//
-// //+++++++++++++++++++//
+// ------------------------
+// -----REUSEABLE-----
+// ------------------------
 
-// // =====SPACE: MARGIN / PADDING / SIZ======
-// //*****************************************
+// -----SPACE: MARGIN / PADDING / SIZES-----
+// -----------------------------------------
 
-// // ====BREAKPOINT VARIABLES====
-// $breakpoint-desktop: 1200px;
-// $breakpoint-laptop: 950px;
-// $breakpoint-tablet: 768px;
-// $breakpoint-mobile: 400px;
+//-----BREAKPOINT VARIABLES-----
+$breakpoint-desktop: 1200px;
+$breakpoint-laptop: 950px;
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 400px;
 
-// // ====HEIGHT VARIABLES====
-// $height-header: ;
-// $height-footer: ;
-// $width-content: ;
+//-----HEIGHT VARIABLES-----
+$height-header: ;
+$height-footer: ;
+$width-content: ;
 
-// // ====SPACE VARIABLES====
-// $sp-0-25: 1.25rem;
-// $sp-0-5: 0.5rem;
-// $sp-0-75: 0.75rem;
-// $sp-1: 1rem;
-// $sp-1-5: 1.5rem;
-// $sp-2: 2rem;
-// $sp-3: 3rem;
+//-----SPACE VARIABLES-----
+$sp-0-25: 1.25rem;
+$sp-0-5: 0.5rem;
+$sp-0-75: 0.75rem;
+$sp-1: 1rem;
+$sp-1-5: 1.5rem;
+$sp-2: 2rem;
+$sp-3: 3rem;
 
-// /// ====Z-INDEX VARIABLES====
-
-// $z-tooltip: 10;
-// $z-fixed: 100;
-// $z-modal: 1000;
+//-----Z-INDEX VARIABLES-----
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
