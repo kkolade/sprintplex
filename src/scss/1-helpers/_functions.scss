@@ -1,0 +1,19 @@
+@function color($colr) {
+  @return map-get($map: $color-map, $key: $colr);
+}
+
+@function font-weight($weight) {
+  @return map-get($map: $font-weight-map, $key: $colr);
+}
+
+@function font-size($size) {
+  @return map-get($map: $font-size-map, $key: $size);
+}
+
+// @function breakpoint($screen-with, $screen-orientation) {
+//   @return map-get($map: $font-size-map, $key: $size);
+// }
+
+@function breakpoint($screen-with) {
+  @return map-get($map: $breakpoint-map, $key: $screen-with);
+}

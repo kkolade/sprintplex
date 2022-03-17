@@ -1,0 +1,73 @@
+@use "1-helpers/1-helpers" as helpers;
+
+/*---------------
+/-----Resets-----
+-----------------*/
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: helpers.$font-primary;
+  font-size: helpers.$font-normal;
+  background-color: helpers.$color-body;
+  color: helpers.$color-text;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  margin: 0.67em 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  color: helpers.$color-headline;
+  font-weight: helpers.$font-light;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}

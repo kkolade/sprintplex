@@ -1,40 +1,48 @@
 // -------------------------
 // -----COLOR VARIABLES-----
 // -------------------------
-$color-primary: #111;
-$color-secondary: #222;
-$color-tertiary: #333;
-$color-text: #505050;
-$color-headline: #505050;
-$color-link: ;
-$color-body: ;
-$color-container: ;
+$color-map: (
+  primary: #111,
+  accent: #111,
+  secondary: #222,
+  tertiary: #333,
+  text: #505050,
+  headline: #505050,
+  link: #111,
+  body: #111,
+  container: #111,
+);
 
 // ------------------------
 // -----FONT VARIABLES-----
 // ------------------------
 
 //-----FONT FAMILY-----
-$font-primary: ;
-$font-secondary: ;
-$font-tertiary: ;
+// $font-primary: ;
+// $font-secondary: ;
+// $font-tertiary: ;
 
 //-----FONT WEIGHT-----
-$font-bold: ;
-$font-semi-bold: ;
-$font-medium: ;
-$font-regular: ;
-$font-light: ;
-$font-thin: ;
+$font-weight-map: (
+  bold: 700,
+  semi-bold: 600,
+  medium: 500,
+  regular: 400,
+  light: 300,
+  extra-light: 200,
+  thin: 100,
+);
 
 //-----FONT SIZE-----
-$font-big: 2rem;
-$font-h1: 1.5rem;
-$font-h2: 1.25rem;
-$font-h3: 1.125rem;
-$font-normal: 0.938rem;
-$font-small: 0.813rem;
-$font-smaller: 0.75rem;
+$font-size-map: (
+  big: 2rem,
+  h1: 1.5rem,
+  h2: 1.25rem,
+  h3: 1.125rem,
+  normal: 0.938rem,
+  small: 0.813rem,
+  smaller: 0.75rem,
+);
 
 // ------------------------
 // -----REUSEABLE-----
@@ -44,10 +52,12 @@ $font-smaller: 0.75rem;
 // -----------------------------------------
 
 //-----BREAKPOINT VARIABLES-----
-$breakpoint-desktop: 1200px;
-$breakpoint-laptop: 950px;
-$breakpoint-tablet: 768px;
-$breakpoint-mobile: 400px;
+$breakpoint-map: (
+  desktop: 1200px,
+  laptop: 950px,
+  tablet: 768px,
+  mobile: 400px,
+);
 
 //-----HEIGHT VARIABLES-----
 $height-header: ;
@@ -55,7 +65,8 @@ $height-footer: ;
 $width-content: ;
 
 //-----SPACE VARIABLES-----
-$sp-0-25: 1.25rem;
+
+$sp-1-25: 1.25rem;
 $sp-0-5: 0.5rem;
 $sp-0-75: 0.75rem;
 $sp-1: 1rem;
