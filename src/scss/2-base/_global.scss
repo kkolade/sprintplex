@@ -15,7 +15,7 @@
 // }
 
 // body {
-//   margin: 0 0 helpers.$height-header 0;
+//   margin: 0;
 //   font-family: helpers.$font-primary;
 //   font-size: helpers.$font-normal;
 //   background-color: helpers.$color-body;
@@ -26,8 +26,10 @@
 // h2,
 // h3,
 // h4 {
+//   padding: 0;
+//   margin: 0;
 //   color: helpers.$color-headline;
-//   font-weight: helpers.$font-semi-bold;
+//   font-weight: helpers.$font(bold);
 // }
 
 // ul {
@@ -39,14 +41,14 @@
 // }
 
 // img {
-//   min-width: 100%;
+//   man-width: 100%;
 //   height: auto;
 // }
 
 // // ====UTILITY CLASSES====
 // .container,
-// .row {
 //   max-width: helpers.$width-content;
+// .row {
 //   margin: 0 auto;
 // }
 

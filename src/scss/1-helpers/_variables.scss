@@ -1,16 +1,21 @@
 // -------------------------
 // -----COLOR VARIABLES-----
 // -------------------------
+$white: #fff;
+$grey-dark: #333;
+$grey-light: darken($white, 5%);
+
 $color-map: (
   primary: #111,
   accent: #111,
   secondary: #222,
   tertiary: #333,
-  text: #505050,
-  headline: #505050,
+  headline: $white,
+  menu-items: #111,
+  text: $grey-dark,
   link: #111,
-  body: #111,
-  container: #111,
+  body: $white,
+  container: $grey-light,
 );
 
 // ------------------------
@@ -53,16 +58,17 @@ $font-size-map: (
 
 //-----BREAKPOINT VARIABLES-----
 $breakpoint-map: (
-  desktop: 1200px,
-  laptop: 950px,
-  tablet: 768px,
-  mobile: 400px,
+  x-large: 1200px,
+  large: 960px,
+  medium: 680px,
+  small: 480px,
+  tiny: 320px,
 );
 
 //-----HEIGHT VARIABLES-----
-$height-header: ;
-$height-footer: ;
-$width-content: ;
+$height-header: 60px;
+$height-footer: 60px;
+$width-content: 1140px;
 
 //-----SPACE VARIABLES-----
 
