@@ -9,15 +9,3 @@
 @function font-size($size) {
   @return map-get($map: $font-size-map, $key: $size);
 }
-
-// @function breakpoint($screen-with, $screen-orientation) {
-//   @return map-get($map: $font-size-map, $key: $size);
-// }
-
-@function breakpoint($screen-with) {
-  @return map-get($map: $breakpoint-map, $key: $screen-with);
-}
-
-@function col-width($content-width: 100, $num-col: 12, $gap: 3%) {
-  @return ($content-width - $gap * ($num-col -1)) / $num-col;
-}

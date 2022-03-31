@@ -1,17 +1,16 @@
 // @use "1-helpers/1-helpers" as helpers;
 
 // :root {
-//   font-size: 10px;
-//   box-sizing: border-box;
+//   font-size: 62.5%;
 //   scroll-behavior: smooth;
 // }
 
 // *,
 // *::before,
 // *::after {
-//   box-sizing: inherit;
 //   padding: 0;
 //   margin: 0;
+//   box-sizing: inherit;
 // }
 
 // body {
@@ -20,6 +19,7 @@
 //   font-size: helpers.$font-normal;
 //   background-color: helpers.$color-body;
 //   color: helpers.$color-text;
+//   box-sizing: border-box;
 // }
 
 // h1,
