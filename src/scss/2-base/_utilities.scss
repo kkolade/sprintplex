@@ -1,0 +1,82 @@
+@use "1-helpers/1-helpers" as h;
+
+// ====UTILITY CLASSES====
+.container,
+.row {
+  max-width: h.$width-content;
+  margin: 0 auto;
+}
+
+.section {
+  padding: h.$sp-2;
+}
+
+.section-title {
+  font-size: h.font-size(h2);
+}
+
+.section-subtitle {
+  display: block;
+  font-size: h.font-size(h3);
+}
+
+.section-title,
+.section-subtitle {
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: h.$sp-0-25;
+}
+
+.article {
+}
+
+.article-title {
+}
+
+.space-below-large {
+  padding-bottom: h.$sp-2 * 2;
+}
+
+.space-below-medium {
+  padding-bottom: h.$sp-2;
+}
+
+.space-below-small {
+  padding-bottom: h.$sp-1;
+}
+
+.space-x-large {
+  padding: 0 h.$sp-2 * 2;
+}
+
+.space-x-medium {
+  padding: 0 h.$sp-2;
+}
+
+.space-x-small {
+  padding: 0 h.$sp-2;
+}
+
+.space-y-large {
+  padding: h.$sp-2 * 2 0;
+}
+
+.space-y-medium {
+  padding: h.$sp-2 0;
+}
+
+.space-y-small {
+  padding: h.$sp-1 0;
+}
+
+.space-around-large {
+  padding: h.$sp-2 * 2;
+}
+
+.space-around-medium {
+  padding: h.$sp-2;
+}
+
+.space-around-small {
+  padding: h.$sp-1;
+}

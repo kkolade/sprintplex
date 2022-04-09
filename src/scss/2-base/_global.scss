@@ -1,73 +1,45 @@
-// @use "1-helpers/1-helpers" as helpers;
+@use "1-helpers/1-helpers" as h;
 
-// :root {
-//   font-size: 62.5%;
-//   scroll-behavior: smooth;
-// }
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 
-// *,
-// *::before,
-// *::after {
-//   padding: 0;
-//   margin: 0;
-//   box-sizing: inherit;
-// }
+body {
+  margin: 0;
+  font-family: h.$font-primary;
+  font-size: h.font-size(normal);
+  background-color: h.color(body);
+  color: h.color(text);
+  box-sizing: border-box;
+}
 
-// body {
-//   margin: 0;
-//   font-family: helpers.$font-primary;
-//   font-size: helpers.$font-normal;
-//   background-color: helpers.$color-body;
-//   color: helpers.$color-text;
-//   box-sizing: border-box;
-// }
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
 
-// h1,
-// h2,
-// h3,
-// h4 {
-//   padding: 0;
-//   margin: 0;
-//   color: helpers.$color-headline;
-//   font-weight: helpers.$font(bold);
-// }
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+  font-weight: h.font-weight(bold);
+}
 
-// ul {
-//   list-style: none;
-// }
+ul {
+  list-style: none;
+}
 
-// a {
-//   text-decoration: none;
-// }
+a {
+  text-decoration: none;
+}
 
-// img {
-//   man-width: 100%;
-//   height: auto;
-// }
-
-// // ====UTILITY CLASSES====
-// .container,
-//   max-width: helpers.$width-content;
-// .row {
-//   margin: 0 auto;
-// }
-
-// .section {
-//   padding: helpers.$sp-2;
-// }
-
-// .section__title {
-//   font-size: helpers.$font-h2;
-// }
-
-// .section__sub-title {
-//   display: block;
-//   font-size: helpers.$font-h3;
-// }
-
-// .section__title,
-// .section__sub-title {
-//   text-align: center;
-//   letter-spacing: 1px;
-//   word-spacing: helpers.$sp-0-25;
-// }
+img {
+  max-width: 100%;
+  height: auto;
+}

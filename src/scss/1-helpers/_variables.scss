@@ -1,31 +1,42 @@
-// -------------------------
-// -----COLOR VARIABLES-----
-// -------------------------
+// =====COLOR VARIABLES=====
+$primary: #df564e;
+$primary-light: #f48b86;
+$primary-dark: #af534e;
+$green-light: #55c57a;
+$green-dark: #0da43f;
+$blue-light: #2298ff;
+$blue-dark: #5643fa;
+$orange-light: #ffb900;
+$orange-dark: #ff7730;
 $white: #fff;
 $grey-dark: #333;
-$grey-light: darken($white, 5%);
+$grey-light-1: darken($white, 5%);
 
 $color-map: (
-  primary: #111,
-  accent: #111,
-  secondary: #222,
-  tertiary: #333,
+  primary: $primary,
+  primary-light: $primary-light,
+  primary-dark: $primary-dark,
+  secondary-1-light: $green-light,
+  secondary-1-dark: $green-dark,
+  secondary-2-light: $blue-light,
+  secondary-2-dark: $blue-dark,
+  secondary-3-light: $orange-light,
+  secondary-3-dark: $orange-dark,
+  hero: $white,
   headline: $white,
-  menu-items: #111,
+  menu-items: $white,
   text: $grey-dark,
-  link: #111,
+  link: $primary,
+  link-hover: $primary-dark,
   body: $white,
-  container: $grey-light,
+  container: $grey-light-1,
 );
 
-// ------------------------
-// -----FONT VARIABLES-----
-// ------------------------
+// =====FONT VARIABLES=====
 
 //-----FONT FAMILY-----
-// $font-primary: ;
-// $font-secondary: ;
-// $font-tertiary: ;
+$font-primary: "Lato", "Helvetica", "Arial", sans-serif;
+$font-secondary: "Roboto", "Helvetica", "Arial", sans-serif;
 
 //-----FONT WEIGHT-----
 $font-weight-map: (
@@ -51,12 +62,7 @@ $font-size-map: (
   bigger: 2rem,
 );
 
-// ------------------------
-// -----REUSEABLE-----
-// ------------------------
-
-// -----SPACE: MARGIN / PADDING / SIZES-----
-// -----------------------------------------
+// =====SPACE: MARGIN / PADDING / SIZES=====
 
 //-----BREAKPOINT VARIABLES-----
 $breakpoint-map: (
@@ -68,9 +74,9 @@ $breakpoint-map: (
 );
 
 //-----HEIGHT VARIABLES-----
-$height-header: 60px;
-$height-footer: 60px;
-$width-content: 1140px;
+$height-header: 6rem;
+$height-footer: 6rem;
+$width-content: 114rem;
 
 //-----SPACE VARIABLES-----
 
@@ -78,9 +84,9 @@ $sp-0-25: 0.25rem;
 $sp-0-5: 0.5rem;
 $sp-0-75: 0.75rem;
 $sp-1: 1rem;
+$sp-1-25: 1.25rem;
 $sp-1-5: 1.5rem;
 $sp-2: 2rem;
-$sp-3: 3rem;
 
 //-----Z-INDEX VARIABLES-----
 $z-tooltip: 10;

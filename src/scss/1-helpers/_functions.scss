@@ -1,11 +1,13 @@
+@use "variables" as v;
+
 @function color($colr) {
-  @return map-get($map: $color-map, $key: $colr);
+  @return map-get($map: v.$color-map, $key: $colr);
 }
 
 @function font-weight($weight) {
-  @return map-get($map: $font-weight-map, $key: $colr);
+  @return map-get($map: v.$font-weight-map, $key: $weight);
 }
 
 @function font-size($size) {
-  @return map-get($map: $font-size-map, $key: $size);
+  @return map-get($map: v.$font-size-map, $key: $size);
 }
